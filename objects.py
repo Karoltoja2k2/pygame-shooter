@@ -186,4 +186,4 @@ class Obstacle():
         self.draw(self.screen)
 
     def draw(self, screen):
-        self.hitbox = pygame.draw.rect(screen, (self.color), (self.x1, self.y1, self.width, self.height), 1)
+        self.hitbox = pygame.draw.rect(screen, (self.color), (self.x1, self.y1, self.width, self.height))

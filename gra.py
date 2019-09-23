@@ -99,7 +99,7 @@ ip = Entry(menu)
 ip_lab = Label(menu, text='Server ip')
 
 color = Entry(menu)
-color_lab = Label(menu, text='Color ex. (255,0,0)')
+color_lab = Label(menu, text='Color red/green/blue')
 
 
 confirm = Button(menu, text='Continue', fg='green')
@@ -125,10 +125,8 @@ height = 720
 
 name = str(data[0])
 ip = str(data[1])
-color = (data[2])
-color = color.split(',')
-color = (int(rgb) for rgb in color)
-print(type(color))
+color = str(data[2])
+
 
 
 
